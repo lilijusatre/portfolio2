@@ -1,0 +1,51 @@
+
+.proyectos{
+    display: flex;
+    flex-direction: column;
+}
+.proyectos__titulo {
+    text-align: center;
+    padding-top: 3%;
+}
+.proyectos__tarjetas{
+    display: flex;
+    flex-direction: column;
+}
+.proyectos__titulo{
+    font-weight: 700;
+    padding-bottom: 3%;
+
+}
+.proyectos__demo{
+    display: flex;
+    flex-direction: row;
+}
+.proyectos__demo > img{
+    width: 60%;
+    height: 30%;
+    padding: 3%;
+}
+.proyectos__demo > div {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.button{
+    /* width: 9px;
+    height: 5px; */
+    background-color: var(--lila);
+    border: 2px solid var(--mint);
+    padding: 1.5px;
+    font-weight: bold;
+}
+.button:hover{
+    background-color: var(--mint);
+}
+@media screen and (max-width: 780px) {
+    .proyectos__demo{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}

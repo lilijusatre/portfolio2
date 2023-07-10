@@ -1,0 +1,21 @@
+.head--primer-nivel{
+    display: flex;
+    align-items: center;
+    padding: 1vh;
+
+}
+.head__logo{
+    width: 16px;
+    height: 16px;
+    padding-right: 4px;
+}
+.head__nombre{
+    font-family: var(--font-raleway);
+    font-weight: 800;
+}
+.head__mail{
+    font-family: var(--font-raleway);
+    font-size: smal;
+    padding-left: 25vw;
+    color: var(--ligth-gay);
+}
